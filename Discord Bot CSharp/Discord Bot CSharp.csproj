@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Discord_Bot_CSharp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.Lavalink" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.Rest" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.0.0-nightly-00748" />
+    <PackageReference Include="DSharpPlus.VoiceNext.Natives" Version="1.0.0" />
+    <PackageReference Include="DSharpPlus.WebSocket.WebSocket4Net" Version="4.0.0-nightly-00653" />
+    <PackageReference Include="DSharpPlus.WebSocket.WebSocket4NetCore" Version="4.0.0-nightly-00653" />
+    <PackageReference Include="DSharpPlus.WebSocket.WebSocketSharp" Version="4.0.0-nightly-00653" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="LavaPlayer" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,47 @@
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.exe
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.csprojAssemblyReference.cache
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.AssemblyInfoInputs.cache
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.AssemblyInfo.cs
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Emzi0767.Common.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.csproj.CopyComplete
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.Interactivity.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.deps.json
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.runtimeconfig.json
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.runtimeconfig.dev.json
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Discord Bot CSharp.pdb
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.VoiceNext.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libopus.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libsodium.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libopus.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libsodium.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.pdb
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.genruntimeconfig.cache
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.CommandsNext.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\obj\Debug\netcoreapp3.1\Discord Bot CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.Lavalink.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\ConcurrentCollections.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.Rest.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.WebSocket.WebSocket4Net.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.WebSocket.WebSocket4NetCore.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\DSharpPlus.WebSocket.WebSocketSharp.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Kay\Desktop\C#\Discord Bot CSharp\Discord Bot CSharp\bin\Debug\netcoreapp3.1\System.Text.Json.dll

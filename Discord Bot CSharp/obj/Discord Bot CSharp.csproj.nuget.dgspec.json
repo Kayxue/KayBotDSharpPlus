@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
+        "projectName": "Discord Bot CSharp",
+        "projectPath": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
+        "packagesPath": "C:\\Users\\Kay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.Interactivity": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.Lavalink": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.Rest": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.VoiceNext": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00748, )"
+            },
+            "DSharpPlus.VoiceNext.Natives": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DSharpPlus.WebSocket.WebSocket4Net": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00653, )"
+            },
+            "DSharpPlus.WebSocket.WebSocket4NetCore": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00653, )"
+            },
+            "DSharpPlus.WebSocket.WebSocketSharp": {
+              "target": "Package",
+              "version": "[4.0.0-nightly-00653, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
