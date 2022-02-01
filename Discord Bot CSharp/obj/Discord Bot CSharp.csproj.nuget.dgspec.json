@@ -13,12 +13,16 @@
         "packagesPath": "C:\\Users\\Kay\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +30,8 @@
           "https://nuget.emzi0767.com/api/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -38,52 +42,40 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "DSharpPlus": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[4.2.0-nightly-00968, )"
             },
             "DSharpPlus.CommandsNext": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[4.2.0-nightly-00968, )"
             },
             "DSharpPlus.Interactivity": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[4.2.0-nightly-00968, )"
             },
             "DSharpPlus.Lavalink": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[4.2.0-nightly-00968, )"
             },
-            "DSharpPlus.Rest": {
+            "DSharpPlus.Menus": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[1.0.3.5, )"
             },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
-              "version": "[4.0.0-nightly-00748, )"
+              "version": "[4.2.0-nightly-00968, )"
             },
-            "DSharpPlus.VoiceNext.Natives": {
+            "IDoEverything.DSharpPlus.SlashCommands": {
               "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "DSharpPlus.WebSocket.WebSocket4Net": {
-              "target": "Package",
-              "version": "[4.0.0-nightly-00653, )"
-            },
-            "DSharpPlus.WebSocket.WebSocket4NetCore": {
-              "target": "Package",
-              "version": "[4.0.0-nightly-00653, )"
-            },
-            "DSharpPlus.WebSocket.WebSocketSharp": {
-              "target": "Package",
-              "version": "[4.0.0-nightly-00653, )"
+              "version": "[2.0.1, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.2, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -92,6 +84,10 @@
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
             }
           },
           "imports": [
@@ -109,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DSharpPlus;
@@ -11,11 +12,12 @@ namespace Discord_Bot_CSharp.Commands
     public class Moderation : BaseCommandModule
     {
         [Command("clear")]
+        [RequireUserPermissions(Permissions.ManageMessages)]
         public async Task clear_command(CommandContext ctx, int message_count)
         {
             if (message_count >= 100)
             {
-                ctx.RespondAsync("訊息數量超過100！");
+                await ctx.RespondAsync("訊息數量超過100！");
             }
 
             List<DiscordMessage> messages = (await ctx.Channel.GetMessagesAsync(message_count)).ToList();

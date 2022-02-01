@@ -2,24 +2,22 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Discord_Bot_CSharp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DSharpPlus" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.Lavalink" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.Rest" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.0.0-nightly-00748" />
-    <PackageReference Include="DSharpPlus.VoiceNext.Natives" Version="1.0.0" />
-    <PackageReference Include="DSharpPlus.WebSocket.WebSocket4Net" Version="4.0.0-nightly-00653" />
-    <PackageReference Include="DSharpPlus.WebSocket.WebSocket4NetCore" Version="4.0.0-nightly-00653" />
-    <PackageReference Include="DSharpPlus.WebSocket.WebSocketSharp" Version="4.0.0-nightly-00653" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="DSharpPlus.Lavalink" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="DSharpPlus.Menus" Version="1.0.3.5" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="IDoEverything.DSharpPlus.SlashCommands" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+    <PackageReference Include="RestSharp" Version="106.12.0" />
   </ItemGroup>
 
   <ItemGroup>

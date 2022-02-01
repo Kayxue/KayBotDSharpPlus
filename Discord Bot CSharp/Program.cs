@@ -3,20 +3,23 @@ using Microsoft.Extensions.Logging;
 using DSharpPlus;
 using DSharpPlus.EventArgs;
 using DSharpPlus.CommandsNext;
+using DSharpPlus.SlashCommands;
 using Discord_Bot_CSharp.Commands;
 using System.Threading.Tasks;
 using DSharpPlus.Lavalink;
-using Microsoft.Extensions.Logging.Console;
+
 
 namespace Discord_Bot_CSharp
 {
     public class Program
     {
         private static DiscordClient? BotClient { get; set; }
-        private static DiscordIntents? intents { get; } = DiscordIntents.All;
+        private static DiscordIntents intents { get; } = DiscordIntents.All;
         private static CommandsNextExtension? botCommand { get; set; }
+        
+        private static  SlashCommandsExtension slashCommand { get; set; }
 
-        private static void Main(string[] args)
+            private static void Main(string[] args)
         {
             new Program().RunBotAsync().GetAwaiter().GetResult();
         }
@@ -35,7 +38,7 @@ namespace Discord_Bot_CSharp
             CommandsNextConfiguration commandsNextConfiguration = new CommandsNextConfiguration
             {
                 CaseSensitive = true,
-                StringPrefixes = new[] { "drmc!" },
+                StringPrefixes = new[] { "t!" },
                 EnableMentionPrefix = true,
                 EnableDefaultHelp = false
             };
@@ -53,6 +56,10 @@ namespace Discord_Bot_CSharp
             botCommand.RegisterCommands<Moderation>();
             botCommand.CommandExecuted += commandExecuted;
             botCommand.CommandErrored += commandError;
+
+            slashCommand = BotClient.UseSlashCommands();
+            slashCommand.RegisterCommands<SlashCommands.Info>();
+            
             await BotClient.ConnectAsync();
             await Task.Delay(-1);
         }
