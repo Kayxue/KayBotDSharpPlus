@@ -38,5 +38,15 @@ namespace Discord_Bot_CSharp.Commands
             await ctx.Guild.BanMemberAsync(userToBan.Id);
             await ctx.RespondAsync("成功！");
         }
+
+        [Command("kick")]
+        public async Task kick_command(CommandContext ctx, DiscordUser userToKick)
+        {
+            DiscordMember memberToKick=await ctx.Guild.GetMemberAsync(userToKick.Id);
+            await memberToKick.RemoveAsync();
+            await ctx.RespondAsync($"成功將{userToKick.Username}#{userToKick.Discriminator}踢出伺服器！");
+        }
+        
+        
     }
 }

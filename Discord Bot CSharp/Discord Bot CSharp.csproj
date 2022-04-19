@@ -7,21 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-00968" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.2.0-nightly-00968" />
-    <PackageReference Include="DSharpPlus.Interactivity" Version="4.2.0-nightly-00968" />
-    <PackageReference Include="DSharpPlus.Lavalink" Version="4.2.0-nightly-00968" />
+    <PackageReference Include="DSharpPlus" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="DSharpPlus.Interactivity" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="DSharpPlus.Lavalink" Version="4.3.0-nightly-01121" />
     <PackageReference Include="DSharpPlus.Menus" Version="1.0.3.5" />
-    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.2.0-nightly-00968" />
-    <PackageReference Include="IDoEverything.DSharpPlus.SlashCommands" Version="2.0.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
-    <PackageReference Include="RestSharp" Version="106.12.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="LavaPlayer" />
+    <PackageReference Include="DSharpPlus.VoiceNext" Version="4.3.0-nightly-01121" />
+    <PackageReference Include="IDoEverything.DSharpPlus.SlashCommands" Version="2.0.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.3.22175.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.3.22175.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0-preview.3.22175.4" />
+    <PackageReference Include="RestSharp" Version="107.3.1-alpha.0.24" />
   </ItemGroup>
 
 </Project>

@@ -19,7 +19,7 @@ namespace Discord_Bot_CSharp
         
         private static  SlashCommandsExtension slashCommand { get; set; }
 
-            private static void Main(string[] args)
+        private static void Main(string[] args)
         {
             new Program().RunBotAsync().GetAwaiter().GetResult();
         }
@@ -57,9 +57,6 @@ namespace Discord_Bot_CSharp
             botCommand.CommandExecuted += commandExecuted;
             botCommand.CommandErrored += commandError;
 
-            slashCommand = BotClient.UseSlashCommands();
-            slashCommand.RegisterCommands<SlashCommands.Info>();
-            
             await BotClient.ConnectAsync();
             await Task.Delay(-1);
         }

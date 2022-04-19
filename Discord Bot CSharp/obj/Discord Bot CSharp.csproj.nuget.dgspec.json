@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {}
+    "C:\\Users\\Kay\\Desktop\\KayBotDSharpPlus\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {
+    "C:\\Users\\Kay\\Desktop\\KayBotDSharpPlus\\Discord Bot CSharp\\Discord Bot CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\Kay\\Desktop\\KayBotDSharpPlus\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
         "projectName": "Discord Bot CSharp",
-        "projectPath": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
+        "projectPath": "C:\\Users\\Kay\\Desktop\\KayBotDSharpPlus\\Discord Bot CSharp\\Discord Bot CSharp.csproj",
         "packagesPath": "C:\\Users\\Kay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kay\\Desktop\\C#\\Discord Bot CSharp\\Discord Bot CSharp\\obj\\",
+        "outputPath": "C:\\Users\\Kay\\Desktop\\KayBotDSharpPlus\\Discord Bot CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
@@ -47,19 +47,19 @@
           "dependencies": {
             "DSharpPlus": {
               "target": "Package",
-              "version": "[4.2.0-nightly-00968, )"
+              "version": "[4.3.0-nightly-01121, )"
             },
             "DSharpPlus.CommandsNext": {
               "target": "Package",
-              "version": "[4.2.0-nightly-00968, )"
+              "version": "[4.3.0-nightly-01121, )"
             },
             "DSharpPlus.Interactivity": {
               "target": "Package",
-              "version": "[4.2.0-nightly-00968, )"
+              "version": "[4.3.0-nightly-01121, )"
             },
             "DSharpPlus.Lavalink": {
               "target": "Package",
-              "version": "[4.2.0-nightly-00968, )"
+              "version": "[4.3.0-nightly-01121, )"
             },
             "DSharpPlus.Menus": {
               "target": "Package",
@@ -67,27 +67,27 @@
             },
             "DSharpPlus.VoiceNext": {
               "target": "Package",
-              "version": "[4.2.0-nightly-00968, )"
+              "version": "[4.3.0-nightly-01121, )"
             },
             "IDoEverything.DSharpPlus.SlashCommands": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[2.0.4, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[7.0.0-preview.3.22175.4, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.0-preview.3.22175.4, )"
             },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.0-preview.3.22175.4, )"
             },
             "RestSharp": {
               "target": "Package",
-              "version": "[106.12.0, )"
+              "version": "[107.3.1-alpha.0.24, )"
             }
           },
           "imports": [
