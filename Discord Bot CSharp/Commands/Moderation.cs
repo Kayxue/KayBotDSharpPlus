@@ -46,7 +46,5 @@ namespace Discord_Bot_CSharp.Commands
             await memberToKick.RemoveAsync();
             await ctx.RespondAsync($"成功將{userToKick.Username}#{userToKick.Discriminator}踢出伺服器！");
         }
-        
-        
     }
 }

@@ -14,12 +14,12 @@ namespace Discord_Bot_CSharp
     public class Program
     {
         private static DiscordClient? BotClient { get; set; }
-        private static DiscordIntents intents { get; } = DiscordIntents.All;
-        private static CommandsNextExtension? botCommand { get; set; }
+        private static DiscordIntents Intents { get; } = DiscordIntents.All;
+        private static CommandsNextExtension? BotCommand { get; set; }
         
-        private static  SlashCommandsExtension slashCommand { get; set; }
+        private static  SlashCommandsExtension SlashCommand { get; set; }
 
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             new Program().RunBotAsync().GetAwaiter().GetResult();
         }
@@ -32,7 +32,7 @@ namespace Discord_Bot_CSharp
                 TokenType = TokenType.Bot,
                 AutoReconnect = true,
                 MinimumLogLevel = LogLevel.Debug,
-                Intents = intents
+                Intents = Intents
             };
 
             CommandsNextConfiguration commandsNextConfiguration = new CommandsNextConfiguration
@@ -51,11 +51,11 @@ namespace Discord_Bot_CSharp
             BotClient = new DiscordClient(configuration);
             BotClient.Ready += BotClient_On_Ready;
 
-            botCommand = BotClient.UseCommandsNext(commandsNextConfiguration);
-            botCommand.RegisterCommands<Info>();
-            botCommand.RegisterCommands<Moderation>();
-            botCommand.CommandExecuted += commandExecuted;
-            botCommand.CommandErrored += commandError;
+            BotCommand = BotClient.UseCommandsNext(commandsNextConfiguration);
+            BotCommand.RegisterCommands<Info>();
+            BotCommand.RegisterCommands<Moderation>();
+            BotCommand.CommandExecuted += commandExecuted;
+            BotCommand.CommandErrored += commandError;
 
             await BotClient.ConnectAsync();
             await Task.Delay(-1);

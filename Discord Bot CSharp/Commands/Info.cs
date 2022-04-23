@@ -16,7 +16,7 @@ namespace Discord_Bot_CSharp.Commands
         [Command("ping")]
         public async Task ping_command(CommandContext ctx)
         {
-            await ctx.RespondAsync(ctx.Client.Ping.ToString());
+            await ctx.RespondAsync($"Ping: {ctx.Client.Ping.ToString()}ms");
         }
     }
 }
